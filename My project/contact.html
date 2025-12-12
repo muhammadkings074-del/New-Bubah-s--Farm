@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contact — Bubaha's Farm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a class="logo" href="index1.html">Bubaha's <span class="logo-text">Farm</span></a>
+            <input id="nav-toggle" class="nav-toggle-checkbox" type="checkbox" aria-hidden="true">
+            <label class="nav-toggle" for="nav-toggle" aria-hidden="true"><span></span></label>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index1.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <a class="btn header-btn" href="contact.html">Enquire</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Contact & Bookings</h1>
+        <p class="muted">Use the form below or the direct contact options to get in touch. We respond within 24 hours on weekdays.</p>
+
+        <div class="contact-grid contact-form-wrap">
+            <form class="contact-form" action="mailto:info@bubahasfarm.example" method="post" enctype="text/plain">
+                <label for="name">Full name</label>
+                <input id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel">
+
+                <label for="message">Message / Enquiry</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <div class="form-actions">
+                    <button class="btn primary" type="submit">Send Enquiry</button>
+                    <a class="btn" href="tel:07037703711"><i class="fa-solid fa-phone"></i> Call us</a>
+                </div>
+            </form>
+
+            <aside class="contact-info">
+                <h2>Visit or Call</h2>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:07037730711">+07037730711</a></p>
+                <p><i class="fa-solid fa-envelope"></i> <a href="muhammadmuhammadking074@Gmail.com">muhammadmuhammadking074@Gmail.com</a></p>
+                <p><i class="fa-solid fa-map-marker-alt"></i> NO.7 Traki Aliyu Roud.Kabama Layout </p>
+                <p><strong>Visiting hours</strong><br>Mon–Sat: 08:00 — 17:00<br>By appointment only on Sundays.</p>
+                <p><strong>Directions</strong><br><a href="#">Open in maps</a></p>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <p>&copy; <span id="year">2025</span> Bubaha's Farm</p>
+            </div>
+            <div class="footer-right">
+                <nav class="footer-nav">
+                    <a href="index1.html">Home</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

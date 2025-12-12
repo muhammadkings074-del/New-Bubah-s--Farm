@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bubaha's Farm — Trusted breeders of healthy rams. Visit or contact us to reserve livestock.">
+        <title>Bubaha's Farm — Home</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container nav-container">
+                <a class="logo" href="index1.html">Bubaha's <span class="logo-text">Farm</span></a>
+                <input id="nav-toggle" class="nav-toggle-checkbox" type="checkbox" aria-hidden="true">
+                <label class="nav-toggle" for="nav-toggle" aria-hidden="true"><span></span></label>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index1.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <a class="btn header-btn" href="contact.html">Enquire</a>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container hero-inner">
+                    <div class="hero-text">
+                        <h1>Welcome to Bubaha's Farm</h1>
+                        <p class="muted">Family-run breeders of healthy, well-tempered rams with clear health records and demonstrable pedigree.</p>
+                        <div class="hero-ctas">
+                            <a class="btn primary" href="services.html">View Rams</a>
+                            <a class="btn" href="contact.html">Book a Visit</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/hero.svg" alt="Bubaha's Farm fields and animals">
+                    </div>
+                </div>
+            </section>
+
+            <section class="intro container">
+                <h2>Quality, Transparency, Care</h2>
+                <p>At Bubaha's Farm we specialise in breeding rams suited for both breeding programmes and market sale. We focus on selecting animals with strong structural correctness, calm temperament, and consistent performance. Our production system is pasture-based with supplementary nutrition during critical growth and breeding stages.</p>
+                <p class="muted">Below are some of the ways we ensure quality and value for our customers.</p>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Responsible Breeding</h3>
+                        <p>We select sires and dams based on conformation, temperament, and health records to improve flock resilience and growth rates over generations.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Health First</h3>
+                        <p>All animals receive routine vaccinations, parasite control, and regular veterinary checks; health records are provided at sale.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Buyer Support</h3>
+                        <p>We offer guidance on transport, acclimation, and feeding the first weeks after purchase to help new owners get the best start.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features container">
+                <h2>Featured Rams</h2>
+                <div class="grid">
+                    <div class="card">
+                        <img src="images/ram1.svg" alt="Ram Breed A">
+                        <h3>Breed A — Senior</h3>
+                        <p class="muted">Age: 3 years • Proven breeder</p>
+                        <p>Strong frame, balanced temperament, excellent maternal lines.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/ram2.svg" alt="Ram Breed B">
+                        <h3>Breed B — Breeder</h3>
+                        <p class="muted">Age: 2.5 years • Documented pedigree</p>
+                        <p>Ideal for improving growth rates and flock performance.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/ram3.svg" alt="Young ram">
+                        <h3>Young Stock</h3>
+                        <p class="muted">Age: 10 months • Growing stock</p>
+                        <p>Vibrant young animals ready to grow into productive stock.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials container">
+                <h2>Customer Testimonials</h2>
+                <div class="testimonial-list">
+                    <blockquote>
+                        "We purchased two rams from Bubaha's Farm last season — both are thriving and have excellent temperaments. The farm provided full health records and even followed up after delivery. Highly recommended."
+                        <footer>— Hajara, Smallholder</footer>
+                    </blockquote>
+                    <blockquote>
+                        "Excellent service and solid animals. The team at Bubaha's helped us select rams that matched our flock's needs and gave practical advice on acclimation and nutrition."
+                        <footer>— Abdulrahman, Livestock Farmer</footer>
+                    </blockquote>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <div class="footer-left">
+                    <p>&copy; <span id="year">2025</span> Bubaha's Farm</p>
+                    <p class="small">All animals sold with health checks and documentation.</p>
+                </div>
+                <div class="footer-right">
+                    <nav class="footer-nav">
+                        <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+
+        <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    </body>
+</html>
